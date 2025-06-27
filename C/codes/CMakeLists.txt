@@ -5,6 +5,7 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(c_inspectorate_camp main.c
         chapter_four.c
-        chapter_five.c)
+        chapter_five.c
+        chapter_six.c)
 
 
