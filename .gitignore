@@ -5,6 +5,7 @@ bin/
 lib/
 obj/
 cmake-build-*/
+.cache/
 
 # Compiled Object files
 *.slo
