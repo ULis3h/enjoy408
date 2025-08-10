@@ -45,5 +45,10 @@ Status BubbleSort(ElemType *data, int n);
 // Time Complexity: O(nlogn)
 Status QuickSort(ElemType *data, int low, int high);
 
+// Quick Sort based on BFS.
+// Input: data[] - an array of n elements.
+// Output: data[] - a sorted array.
+// Time Complexity: O(nlogn)
+Status QuickSortBFS(ElemType *data, int n);
 
 #endif // SORT_H

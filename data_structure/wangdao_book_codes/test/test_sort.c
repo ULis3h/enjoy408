@@ -25,7 +25,8 @@ int main(int argc, char *argv[]) {
     // ShellSort(data, n);
     // ShellSort2(data, n);
     // BubbleSort(data, n);
-    QuickSort(data, 1, n);
+    // QuickSort(data, 1, n);
+    QuickSortBFS(data, n);
     end = clock();
 
     duration = (double)(end - start) / CLOCKS_PER_SEC;

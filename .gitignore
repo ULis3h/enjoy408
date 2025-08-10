@@ -5,7 +5,6 @@ bin/
 lib/
 obj/
 cmake-build-*/
-.cache/
 
 # Compiled Object files
 *.slo
@@ -51,6 +50,7 @@ CTestTestfile.cmake
 *.swo
 *~
 .DS_Store
+.cache/*
 
 # Dependency directories
 _deps/
