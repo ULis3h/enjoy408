@@ -19,14 +19,6 @@ typedef unsigned int uint;
 typedef unsigned long long ull;
 
 /**
- * @brief Status type for function returns
- */
-typedef enum {
-    ERROR = 0,  /* Operation failed */
-    SUCCESS = 1 /* Operation succeeded */
-} Status;
-
-/**
  * @brief Boolean type
  */
 typedef enum {

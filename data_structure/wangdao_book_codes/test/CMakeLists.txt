@@ -12,7 +12,7 @@ foreach(test_source ${TEST_SOURCES})
     add_executable(${test_name} ${test_source})
     
     # Link with the trees library
-    target_link_libraries(${test_name} PRIVATE trees common)
+    target_link_libraries(${test_name} PRIVATE trees sort common)
     
     # Add to tests
     add_test(NAME ${test_name} COMMAND ${test_name})

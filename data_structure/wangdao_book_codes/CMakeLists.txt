@@ -17,10 +17,12 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
 # Include directories
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/common)
 
 # Add subdirectories
 add_subdirectory(common)
 add_subdirectory(trees)
+add_subdirectory(sort)
 add_subdirectory(test)
 
 # Enable testing
