@@ -4,6 +4,7 @@
 #include "common/status.h"
 #include "common/types.h"
 
+/** insertion sort */
 
 // Insertion Sort.
 // Input: data[] - an array of n elements.
@@ -28,5 +29,21 @@ Status ShellSort(ElemType *data, int n);
 // Output: data[] - a sorted array.
 // Time Complexity: O(n^1.3)
 Status ShellSort2(ElemType *data, int n);
- 
+
+
+/** swap sort */
+
+// Bubble Sort.
+// Input: data[] - an array of n elements.
+// Output: data[] - a sorted array.
+// Time Complexity: O(n^2)
+Status BubbleSort(ElemType *data, int n);
+
+// Quick Sort.
+// Input: data[] - an array of n elements.
+// Output: data[] - a sorted array.
+// Time Complexity: O(nlogn)
+Status QuickSort(ElemType *data, int low, int high);
+
+
 #endif // SORT_H
